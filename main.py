@@ -9,6 +9,9 @@ cap.set(3, 640)
 cap.set(4, 480)
 cap.set(cv2.CAP_PROP_FPS, 50)
 segmentor = SelfiSegmentation()
+imgBg = cv2.imread("BG/1.jpg")
+
+
 
 
 while True:
