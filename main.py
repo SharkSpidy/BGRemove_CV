@@ -12,6 +12,13 @@ segmentor = SelfiSegmentation()
 imgBg = cv2.imread("BG/1.jpg")
 
 
+listImg = os.listdir("BG")
+print(listImg)
+imgList = []
+for imgPath in listImg:
+    img = cv2.imread(f"BG/{imgPath}")
+    imgList.append(img)
+print(len(imgList))
 
 
 while True:
