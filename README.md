@@ -51,4 +51,4 @@ For Software:
 ![Video](https://github.com/SharkSpidy/BGRemove_CV/blob/main/Media/Screen%20Recording%202025-04-25%20191637.mp4)
 
 ---
-Made with ❤️ by Joseph Shibu(https://github.com/SharkSpidy)
+Made with ❤️ by [Joseph Shibu](https://github.com/SharkSpidy)
