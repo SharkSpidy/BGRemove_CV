@@ -9,7 +9,6 @@ cap.set(3, 640)
 cap.set(4, 480)
 cap.set(cv2.CAP_PROP_FPS, 50)
 segmentor = SelfiSegmentation()
-imgBg = cv2.imread("BG/1.jpg")
 
 
 listImg = os.listdir("BG")
@@ -20,14 +19,21 @@ for imgPath in listImg:
     imgList.append(img)
 print(len(imgList))
 
+indexImg = 0
 
 while True:
     success, img = cap.read()
-    imgOut = segmentor.removeBG(img, imgBg, cutThreshold=0.75)
+    imgOut = segmentor.removeBG(img, imgList[indexImg], cutThreshold=0.75)
     
 
 
     imgStacked = cvzone.stackImages([img, imgOut],2,1)
-    
+    print(indexImg)
     cv2.imshow("Image", imgStacked)
-    cv2.waitKey(1)
+    key = cv2.waitKey(1)
+    if key == ord('a'):
+        indexImg -= 1
+    elif key == ord('d'):
+        indexImg += 1
+    elif key == ord('q'):
+        break
