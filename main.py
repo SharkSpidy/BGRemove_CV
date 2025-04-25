@@ -12,12 +12,10 @@ segmentor = SelfiSegmentation()
 
 
 listImg = os.listdir("BG")
-print(listImg)
 imgList = []
 for imgPath in listImg:
     img = cv2.imread(f"BG/{imgPath}")
     imgList.append(img)
-print(len(imgList))
 
 indexImg = 0
 
@@ -28,7 +26,6 @@ while True:
 
 
     imgStacked = cvzone.stackImages([img, imgOut],2,1)
-    print(indexImg)
     cv2.imshow("Image", imgStacked)
     key = cv2.waitKey(1)
     if key == ord('a'):
