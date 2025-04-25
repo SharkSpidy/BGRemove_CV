@@ -40,15 +40,15 @@ For Software:
 
 
 # Screenshots
-![Screenshot1]()
+![Screenshot1](https://github.com/SharkSpidy/BGRemove_CV/blob/main/Media/Screenshot%202025-04-25%20191532.png)
 
-![Screenshot2]()
+![Screenshot2](https://github.com/SharkSpidy/BGRemove_CV/blob/main/Media/Screenshot%202025-04-25%20191542.png)
 
-![Screenshot3]()
+![Screenshot3](https://github.com/SharkSpidy/BGRemove_CV/blob/main/Media/Screenshot%202025-04-25%20191741.png)
 
 ### Project Demo
 # Video
-![Video]()
+![Video](https://github.com/SharkSpidy/BGRemove_CV/blob/main/Media/Screen%20Recording%202025-04-25%20191637.mp4)
 
 ---
-Made with ❤️ by Joseph Shibu
+Made with ❤️ by Joseph Shibu(https://github.com/SharkSpidy)
