@@ -28,8 +28,8 @@ while True:
     imgStacked = cvzone.stackImages([img, imgOut],2,1)
     cv2.imshow("Image", imgStacked)
     key = cv2.waitKey(1)
-    if key == ord('a'):
-        if indexImg > 0:
+    if key == ord('a'): #can add more features
+        if indexImg > 0: 
             indexImg -= 1
     elif key == ord('d'):
         if indexImg < len(imgList) - 1:
